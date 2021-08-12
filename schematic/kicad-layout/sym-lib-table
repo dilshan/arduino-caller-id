@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ht9032-arduino)(type Legacy)(uri ${KIPRJMOD}/ht9032-arduino.lib)(options "")(descr ""))
+  (lib (name ht9032-arduino-rescue)(type Legacy)(uri ${KIPRJMOD}/ht9032-arduino-rescue.lib)(options "")(descr ""))
+)

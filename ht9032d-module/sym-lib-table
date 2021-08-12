@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name ht9032-sym)(type Legacy)(uri ${KIPRJMOD}/ht9032-sym.lib)(options "")(descr ""))
+)

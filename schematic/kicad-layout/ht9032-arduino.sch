@@ -1,0 +1,424 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Arduino UNO based telephone caller ID display unit"
+Date "2021-08-10"
+Rev "1.0.0"
+Comp "Dilshan R Jayakody"
+Comment1 "jayakody2000lk@gmail.com"
+Comment2 "https://jayakody2000lk.blogspot.com"
+Comment3 "https://github.com/dilshan/arduino-caller-id"
+Comment4 ""
+$EndDescr
+$Comp
+L MCU_Module:Arduino_UNO_R3 A1
+U 1 1 61115FA2
+P 6900 3100
+F 0 "A1" H 6550 2050 50  0000 C CNN
+F 1 "Arduino UNO (Rev 3)" H 6900 4550 50  0000 C CNN
+F 2 "Module:Arduino_UNO_R3" H 6900 3100 50  0001 C CIN
+F 3 "https://www.arduino.cc/en/Main/arduinoBoardUno" H 6900 3100 50  0001 C CNN
+	1    6900 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Display_Character:RC1602A U2
+U 1 1 61117767
+P 4650 2800
+F 0 "U2" H 4900 2150 50  0000 C CNN
+F 1 "16x2 HD44780 LCD Display" H 4650 3950 50  0000 C CNN
+F 2 "Display:RC1602A" H 4750 2000 50  0001 C CNN
+F 3 "http://www.raystar-optronics.com/down.php?ProID=18" H 4750 2700 50  0001 C CNN
+	1    4650 2800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 2400 5200 2400
+Wire Wire Line
+	5200 2400 5200 2600
+Wire Wire Line
+	5200 2600 5050 2600
+Wire Wire Line
+	5050 2700 5200 2700
+Wire Wire Line
+	5200 2700 5200 2600
+Connection ~ 5200 2600
+Wire Wire Line
+	5050 2800 5200 2800
+Wire Wire Line
+	5200 2800 5200 2700
+Connection ~ 5200 2700
+Wire Wire Line
+	5050 2900 5200 2900
+Wire Wire Line
+	5200 2900 5200 2800
+Connection ~ 5200 2800
+Wire Wire Line
+	5050 2500 5300 2500
+Wire Wire Line
+	5300 2500 5300 2800
+Wire Wire Line
+	5300 2800 6400 2800
+Wire Wire Line
+	5400 2700 5400 2300
+Wire Wire Line
+	5400 2300 5050 2300
+Wire Wire Line
+	5400 2700 6400 2700
+Wire Wire Line
+	5300 2900 5300 3000
+Wire Wire Line
+	5300 3000 5050 3000
+Wire Wire Line
+	5300 2900 6400 2900
+Wire Wire Line
+	5400 3000 5400 3100
+Wire Wire Line
+	5400 3100 5050 3100
+Wire Wire Line
+	5400 3000 6400 3000
+Wire Wire Line
+	5500 3100 5500 3200
+Wire Wire Line
+	5500 3200 5050 3200
+Wire Wire Line
+	5500 3100 6400 3100
+Wire Wire Line
+	5600 3200 5600 3300
+Wire Wire Line
+	5600 3300 5050 3300
+Wire Wire Line
+	5600 3200 6400 3200
+$Comp
+L power:GND #PWR06
+U 1 1 611233F7
+P 4650 3650
+F 0 "#PWR06" H 4650 3400 50  0001 C CNN
+F 1 "GND" H 4655 3477 50  0000 C CNN
+F 2 "" H 4650 3650 50  0001 C CNN
+F 3 "" H 4650 3650 50  0001 C CNN
+	1    4650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR09
+U 1 1 61123759
+P 5200 3650
+F 0 "#PWR09" H 5200 3400 50  0001 C CNN
+F 1 "GND" H 5205 3477 50  0000 C CNN
+F 2 "" H 5200 3650 50  0001 C CNN
+F 3 "" H 5200 3650 50  0001 C CNN
+	1    5200 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 3500 4650 3650
+Wire Wire Line
+	5200 2900 5200 3650
+Connection ~ 5200 2900
+$Comp
+L Device:R_POT RV1
+U 1 1 611243A0
+P 3950 2600
+F 0 "RV1" H 3881 2646 50  0000 R CNN
+F 1 "50K" H 3881 2555 50  0000 R CNN
+F 2 "" H 3950 2600 50  0001 C CNN
+F 3 "~" H 3950 2600 50  0001 C CNN
+	1    3950 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2600 4250 2600
+$Comp
+L power:GND #PWR03
+U 1 1 61124EEC
+P 3950 2750
+F 0 "#PWR03" H 3950 2500 50  0001 C CNN
+F 1 "GND" H 3955 2577 50  0000 C CNN
+F 2 "" H 3950 2750 50  0001 C CNN
+F 3 "" H 3950 2750 50  0001 C CNN
+	1    3950 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR02
+U 1 1 61125735
+P 3950 2000
+F 0 "#PWR02" H 3950 1850 50  0001 C CNN
+F 1 "+5V" H 3965 2173 50  0000 C CNN
+F 2 "" H 3950 2000 50  0001 C CNN
+F 3 "" H 3950 2000 50  0001 C CNN
+	1    3950 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 2000 3950 2450
+$Comp
+L power:+5V #PWR05
+U 1 1 61126D0A
+P 4650 2000
+F 0 "#PWR05" H 4650 1850 50  0001 C CNN
+F 1 "+5V" H 4665 2173 50  0000 C CNN
+F 2 "" H 4650 2000 50  0001 C CNN
+F 3 "" H 4650 2000 50  0001 C CNN
+	1    4650 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR012
+U 1 1 611270F2
+P 7100 2000
+F 0 "#PWR012" H 7100 1850 50  0001 C CNN
+F 1 "+5V" H 7115 2173 50  0000 C CNN
+F 2 "" H 7100 2000 50  0001 C CNN
+F 3 "" H 7100 2000 50  0001 C CNN
+	1    7100 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 2000 4650 2100
+Wire Wire Line
+	7100 2000 7100 2100
+NoConn ~ 6800 2100
+NoConn ~ 7000 2100
+$Comp
+L power:GND #PWR011
+U 1 1 61128E87
+P 7000 4300
+F 0 "#PWR011" H 7000 4050 50  0001 C CNN
+F 1 "GND" H 7005 4127 50  0000 C CNN
+F 2 "" H 7000 4300 50  0001 C CNN
+F 3 "" H 7000 4300 50  0001 C CNN
+	1    7000 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR010
+U 1 1 611292F2
+P 6800 4300
+F 0 "#PWR010" H 6800 4050 50  0001 C CNN
+F 1 "GND" H 6805 4127 50  0000 C CNN
+F 2 "" H 6800 4300 50  0001 C CNN
+F 3 "" H 6800 4300 50  0001 C CNN
+	1    6800 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6800 4200 6800 4300
+Wire Wire Line
+	7000 4200 7000 4300
+NoConn ~ 6900 4200
+$Comp
+L Transistor_BJT:2N3904 Q1
+U 1 1 6112E71E
+P 3850 3600
+F 0 "Q1" H 4040 3646 50  0000 L CNN
+F 1 "2N3904" H 4040 3555 50  0000 L CNN
+F 2 "Package_TO_SOT_THT:TO-92_Inline" H 4050 3525 50  0001 L CIN
+F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 3850 3600 50  0001 L CNN
+	1    3850 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR04
+U 1 1 6112F711
+P 3950 3800
+F 0 "#PWR04" H 3950 3550 50  0001 C CNN
+F 1 "GND" H 3955 3627 50  0000 C CNN
+F 2 "" H 3950 3800 50  0001 C CNN
+F 3 "" H 3950 3800 50  0001 C CNN
+	1    3950 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6113171F
+P 4950 4150
+F 0 "R2" V 4743 4150 50  0000 C CNN
+F 1 "10K" V 4834 4150 50  0000 C CNN
+F 2 "" V 4880 4150 50  0001 C CNN
+F 3 "~" H 4950 4150 50  0001 C CNN
+	1    4950 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3500 3600 3500 4150
+Wire Wire Line
+	3500 4150 4800 4150
+$Comp
+L Device:R R1
+U 1 1 61133C79
+P 3500 2600
+F 0 "R1" H 3700 2550 50  0000 R CNN
+F 1 "470R" H 3800 2650 50  0000 R CNN
+F 2 "" V 3430 2600 50  0001 C CNN
+F 3 "~" H 3500 2600 50  0001 C CNN
+	1    3500 2600
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR01
+U 1 1 611350EA
+P 3500 2000
+F 0 "#PWR01" H 3500 1850 50  0001 C CNN
+F 1 "+5V" H 3515 2173 50  0000 C CNN
+F 2 "" H 3500 2000 50  0001 C CNN
+F 3 "" H 3500 2000 50  0001 C CNN
+	1    3500 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR07
+U 1 1 6113F19E
+P 4650 4750
+F 0 "#PWR07" H 4650 4600 50  0001 C CNN
+F 1 "+5V" H 4665 4923 50  0000 C CNN
+F 2 "" H 4650 4750 50  0001 C CNN
+F 3 "" H 4650 4750 50  0001 C CNN
+	1    4650 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 4750 4650 4900
+$Comp
+L power:GND #PWR08
+U 1 1 61144564
+P 4650 5950
+F 0 "#PWR08" H 4650 5700 50  0001 C CNN
+F 1 "GND" H 4655 5777 50  0000 C CNN
+F 2 "" H 4650 5950 50  0001 C CNN
+F 3 "" H 4650 5950 50  0001 C CNN
+	1    4650 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 5800 4650 5950
+Wire Wire Line
+	6400 3300 5750 3300
+Wire Wire Line
+	5750 3300 5750 5250
+Wire Wire Line
+	5750 5250 5150 5250
+Wire Wire Line
+	6400 3400 5850 3400
+Wire Wire Line
+	5850 3400 5850 6250
+Wire Wire Line
+	5850 6250 4050 6250
+Wire Wire Line
+	4050 6250 4050 5350
+Wire Wire Line
+	4050 5350 4200 5350
+Wire Wire Line
+	6400 3500 5950 3500
+Wire Wire Line
+	5950 3500 5950 5450
+Wire Wire Line
+	5950 5450 5150 5450
+Wire Wire Line
+	5100 4150 6050 4150
+Wire Wire Line
+	6050 4150 6050 3700
+Wire Wire Line
+	6050 3700 6400 3700
+NoConn ~ 6400 3600
+NoConn ~ 6400 3800
+NoConn ~ 7400 3200
+NoConn ~ 7400 3300
+NoConn ~ 7400 3400
+NoConn ~ 7400 3500
+NoConn ~ 7400 3600
+NoConn ~ 7400 3800
+NoConn ~ 7400 3900
+NoConn ~ 7400 2700
+NoConn ~ 7400 2900
+NoConn ~ 7400 2500
+NoConn ~ 6400 2600
+NoConn ~ 6400 2500
+$Comp
+L Switch:SW_MEC_5G SW1
+U 1 1 61164441
+P 7750 3550
+F 0 "SW1" V 7704 3698 50  0000 L CNN
+F 1 "Push Switch" V 7795 3698 50  0000 L CNN
+F 2 "" H 7750 3750 50  0001 C CNN
+F 3 "http://www.apem.com/int/index.php?controller=attachment&id_attachment=488" H 7750 3750 50  0001 C CNN
+	1    7750 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR013
+U 1 1 61164E27
+P 7750 4300
+F 0 "#PWR013" H 7750 4050 50  0001 C CNN
+F 1 "GND" H 7755 4127 50  0000 C CNN
+F 2 "" H 7750 4300 50  0001 C CNN
+F 3 "" H 7750 4300 50  0001 C CNN
+	1    7750 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 3100 7750 3100
+Wire Wire Line
+	7750 3100 7750 3350
+Wire Wire Line
+	7750 3750 7750 4300
+Text Notes 7900 3400 0    50   ~ 0
+Last Call
+Text Notes 4150 2500 1    50   ~ 0
+LCD Contrast
+Wire Wire Line
+	4250 3100 3500 3100
+Wire Wire Line
+	3500 3100 3500 2750
+Wire Wire Line
+	3500 2450 3500 2000
+Wire Notes Line
+	7500 3050 8450 3050
+Wire Notes Line
+	8450 3050 8450 4600
+Wire Notes Line
+	8450 4600 7500 4600
+Wire Notes Line
+	7500 4600 7500 3050
+Text Notes 7500 4700 0    50   ~ 0
+OPTIONAL
+Text Label 5450 6250 0    50   ~ 0
+PDWN
+Text Label 5450 5450 0    50   ~ 0
+DATA
+Text Label 5450 5250 0    50   ~ 0
+SENSE
+Text Label 5750 2700 0    50   ~ 0
+RS
+Text Label 5750 2800 0    50   ~ 0
+EN
+Text Label 5750 2900 0    50   ~ 0
+D4
+Text Label 5750 3000 0    50   ~ 0
+D5
+Text Label 5750 3100 0    50   ~ 0
+D6
+Text Label 5750 3200 0    50   ~ 0
+D7
+$Comp
+L ht9032-arduino:HT9032D-Module U1
+U 1 1 6118A454
+P 4600 5300
+F 0 "U1" H 4675 5881 50  0000 C CNN
+F 1 "HT9032D Module" H 4650 6200 50  0000 C CNN
+F 2 "" H 4600 5300 50  0001 C CNN
+F 3 "" H 4600 5300 50  0001 C CNN
+	1    4600 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3950 3000 3950 3400
+Wire Wire Line
+	3950 3000 4250 3000
+Wire Wire Line
+	3500 3600 3650 3600
+$EndSCHEMATC

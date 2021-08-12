@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP HT9032D
+D Calling Line Identification Receiver
+K CLI, Bell 202, FSK
+F https://www.holtek.com/documents/10179/116711/HT9032C_Dv170.pdf
+$ENDCMP
+#
+#End Doc Library

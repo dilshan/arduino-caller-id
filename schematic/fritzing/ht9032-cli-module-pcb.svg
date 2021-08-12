@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="72px"
+   height="46.8px"
+   viewBox="0 0 72 46.8"
+   enable-background="new 0 0 72 46.8"
+   xml:space="preserve"
+   sodipodi:docname="ht9032-cli-module-pcb.svg"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs46" /><sodipodi:namedview
+   id="namedview44"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="6.3760484"
+   inkscape:cx="37.640869"
+   inkscape:cy="10.429657"
+   inkscape:window-width="1848"
+   inkscape:window-height="1016"
+   inkscape:window-x="72"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="silkscreen" />
+<g
+   id="_x3C_desc_x3E_">
+</g>
+<g
+   id="silkscreen">
+	<rect
+   id="outside_path"
+   fill="none"
+   stroke="#FFFFFF"
+   stroke-width="0.25"
+   stroke-linecap="round"
+   width="72"
+   height="46.8" />
+	
+	
+	
+		
+	
+		
+	
+		
+	
+		
+	
+		
+	
+	
+	
+</g>
+<g
+   id="copper0">
+	<g
+   id="g33"
+   transform="translate(12.132,-18.773998)">
+		<circle
+   id="connector1pad"
+   fill="none"
+   stroke="#f5bd18"
+   stroke-width="1.224"
+   cx="10.799"
+   cy="43.201"
+   r="2.052" />
+		<rect
+   id="connector9pad"
+   x="8.7469997"
+   y="41.148998"
+   fill="none"
+   stroke="#f5bd18"
+   stroke-width="1.224"
+   width="4.1040001"
+   height="4.1040001" />
+	</g>
+	
+	
+	
+	<circle
+   id="connector5pad"
+   fill="none"
+   stroke="#f5bd18"
+   stroke-width="1.224"
+   cx="51.730999"
+   cy="24.427002"
+   r="2.052" />
+	<circle
+   id="connector4pad"
+   fill="none"
+   stroke="#f5bd18"
+   stroke-width="1.224"
+   cx="44.532001"
+   cy="24.427002"
+   r="2.052" />
+	<circle
+   id="connector3pad"
+   fill="none"
+   stroke="#f5bd18"
+   stroke-width="1.224"
+   cx="37.332001"
+   cy="24.427002"
+   r="2.052" />
+	<circle
+   id="connector2pad"
+   fill="none"
+   stroke="#f5bd18"
+   stroke-width="1.224"
+   cx="30.131001"
+   cy="24.427002"
+   r="2.052" />
+</g>
+</svg>

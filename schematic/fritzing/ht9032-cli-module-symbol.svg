@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 17.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="93.839928"
+   height="69.98996"
+   viewBox="0 0 93.839928 69.98996"
+   enable-background="new 0 0 101.417 85.015"
+   xml:space="preserve"
+   sodipodi:docname="ht9032-cli-module-symbol.svg"
+   inkscape:version="1.1 (ce6663b3b7, 2021-05-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs59" /><sodipodi:namedview
+   id="namedview57"
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1.0"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   showgrid="false"
+   inkscape:zoom="4.96383"
+   inkscape:cx="24.074153"
+   inkscape:cy="35.355764"
+   inkscape:window-width="1848"
+   inkscape:window-height="1016"
+   inkscape:window-x="72"
+   inkscape:window-y="27"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="schematic"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0" />
+<g
+   id="schematic"
+   transform="translate(-0.07800001,0.34999999)">
+	
+		<rect
+   id="part_symbol"
+   x="7.5761743"
+   y="7.1481743"
+   fill="#ffffff"
+   stroke="#000000"
+   stroke-width="0.9002"
+   stroke-linecap="round"
+   width="85.891655"
+   height="54.831131" />
+	<g
+   id="pins">
+		<g
+   id="g5"
+   transform="translate(-3.721714e-7,-15.225042)">
+			
+				<line
+   fill="none"
+   stroke="#555555"
+   stroke-width="0.7"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   x1="51.916"
+   y1="77.314003"
+   x2="51.916"
+   y2="84.514999"
+   id="line3" />
+		</g>
+		
+			<line
+   fill="none"
+   stroke="#555555"
+   stroke-width="0.7"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   x1="0.428"
+   y1="34.799999"
+   x2="7.6279998"
+   y2="34.799999"
+   id="line7" />
+		
+			<line
+   fill="none"
+   stroke="#555555"
+   stroke-width="0.7"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   x1="0.428"
+   y1="27.6"
+   x2="7.6279998"
+   y2="27.6"
+   id="line9" />
+		
+			
+		
+			<line
+   fill="none"
+   stroke="#555555"
+   stroke-width="0.7"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   x1="0.428"
+   y1="42"
+   x2="7.6279998"
+   y2="42"
+   id="line13" />
+		
+			
+		
+			
+		<g
+   id="g21">
+			
+				<line
+   fill="none"
+   stroke="#555555"
+   stroke-width="0.7"
+   stroke-linecap="round"
+   stroke-linejoin="round"
+   x1="51.916"
+   y1="7.2010002"
+   x2="51.916"
+   y2="0"
+   id="line19" />
+		</g>
+	</g>
+	<g
+   id="pin_labels">
+		<text
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="4.5px"
+   id="text24"
+   x="47.34111"
+   y="60.033695">GND</text>
+		<text
+   transform="translate(48.7208,12.5352)"
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="4.5px"
+   id="text26">V</text>
+		<text
+   transform="translate(51.1417,12.5352)"
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="4.5px"
+   id="text28">c</text>
+		<text
+   transform="translate(53.2256,12.5352)"
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="4.5px"
+   id="text30">c</text>
+		<text
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="4.5px"
+   id="text32"
+   x="9.6470003"
+   y="29.3507">DATA</text>
+		<text
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="4.5px"
+   id="text34"
+   x="9.6875"
+   y="36.433201">PDWN</text>
+		<text
+   transform="translate(12.0235,30.4332)"
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="4.5px"
+   id="text36" />
+		
+		<text
+   fill="#555555"
+   font-family="DroidSans"
+   font-size="4.5px"
+   id="text40"
+   x="9.6470003"
+   y="43.736">SENSE</text>
+		
+		
+		
+	</g>
+	<text
+   font-family="DroidSans"
+   font-size="6px"
+   id="text49"
+   x="41.565872"
+   y="32.546082">HT9032D </text>
+	<text
+   font-family="DroidSans"
+   font-size="6px"
+   id="text51"
+   x="35.410671"
+   y="39.746281">Caller ID Module</text>
+	
+</g>
+</svg>
