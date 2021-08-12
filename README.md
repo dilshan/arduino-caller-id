@@ -1,12 +1,15 @@
+
 # Arduino based telephone caller ID display unit
 
 This project is a simple Caller ID (CLI) decoder made using the [Arduino UNO](https://www.arduino.cc/en/Main/ArduinoBoardUno) and a custom-made [HT9032D](https://www.holtek.com/documents/10179/116711/HT9032C_Dv170.pdf) module.
 
 ## HT9032D module
 
-The HT9032D module design files are available at *[/ht9032d-module](https://github.com/dilshan/arduino-caller-id/ht9032d-module) directory*. *Gerber files* for PCB production are in the [Release](https://github.com/dilshan/arduino-caller-id/releases) section of this repository.
+The HT9032D module design files are available at *[/ht9032d-module](https://github.com/dilshan/arduino-caller-id/tree/main/ht9032d-module) directory*. *Gerber files* for PCB production are in the [Release](https://github.com/dilshan/arduino-caller-id/releases) section of this repository.
 
 The HT9032D module consists of standard through-hole type components. No special soldering equipment is needed to assemble this module.
+
+![HT9032D module](https://raw.githubusercontent.com/dilshan/arduino-caller-id/main/resources/ht9032d-module.jpg)
 
 The following table lists all the components needed to complete the HT9032D module.
 
@@ -41,11 +44,13 @@ The following components and modules are required to assemble the call ID displa
 7.  22KΩ (¼W) resistor
 8.  Few [mini/small breadboard(s)](https://www.adafruit.com/product/65)
 
-Both *pictorial* and *symbolic* wire diagrams are provided to minimize the complexity of assembly.
+![Complete wiring diagram of the CLI display unit](https://raw.githubusercontent.com/dilshan/arduino-caller-id/main/schematic/arduino-uno-layout.jpg)
 
-The Arduino sketch required for this caller ID is available here.
+Both *[pictorial](https://github.com/dilshan/arduino-caller-id/blob/main/schematic/arduino-uno-layout.jpg)* and *[symbolic](https://github.com/dilshan/arduino-caller-id/blob/main/schematic/arduino-uno-caller-id.pdf)* wiring diagrams are provided to minimize the complexity of assembly.
 
-The current version of this caller ID decoder sketch can handle the caller line ID, name, and date/time MDMF (*Multiple Data Message Format*) packet IDs only.
+The Arduino sketch required for this caller ID is available [here](https://github.com/dilshan/arduino-caller-id/blob/main/arduino-sketch/arduino-callerid/arduino-callerid.ino).
+
+The current version of this caller ID decoder sketch can handle the *caller line ID*, *name*, and *date/time* MDMF (*Multiple Data Message Format*) packet IDs only.
 
 ## License
 
