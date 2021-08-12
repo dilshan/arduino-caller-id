@@ -36,7 +36,7 @@ The following components and modules are required to assemble the call ID displa
 2.  *Arduino UNO* board
 3.  [16x2 HD44780 character LCD panel](https://www.adafruit.com/product/181)
 4.  [2N3904](https://octopart.com/2n3904tf-on+semiconductor-84408862) (or equivalent NPN) Transistor
-5.  50K Trimpot (RM-063 or equivalent)
+5.  50KΩ Trimpot (RM-063 or equivalent)
 6.  560Ω (¼W) resistor
 7.  22KΩ (¼W) resistor
 8.  Few [mini/small breadboard(s)](https://www.adafruit.com/product/65)
