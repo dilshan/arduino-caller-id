@@ -1,4 +1,6 @@
 
+![CI Status](https://github.com/dilshan/arduino-caller-id/actions/workflows/main.yml/badge.svg)
+
 # Arduino based telephone caller ID display unit
 
 This project is a simple Caller ID (CLI) decoder made using the [Arduino UNO](https://www.arduino.cc/en/Main/ArduinoBoardUno) and a custom-made [HT9032D](https://www.holtek.com/documents/10179/116711/HT9032C_Dv170.pdf) module.
