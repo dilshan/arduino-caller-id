@@ -1,5 +1,5 @@
 
-![CI Status](https://github.com/dilshan/arduino-caller-id/actions/workflows/main.yml/badge.svg)
+[![CI Status](https://github.com/dilshan/arduino-caller-id/actions/workflows/main.yml/badge.svg)](https://github.com/dilshan/arduino-caller-id/actions)
 
 # Arduino based telephone caller ID display unit
 
