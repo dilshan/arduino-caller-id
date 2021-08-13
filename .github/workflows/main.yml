@@ -35,6 +35,10 @@ jobs:
         run: |
           arduino-cli core update-index
           arduino-cli core install arduino:avr
+          
+      # Install LiquidCrystal library.
+      - name: Install LiquidCrystal library
+        run: arduino-cli lib install LiquidCrystal
 
       # Compiling the sketch
       - name: Compile Sketch
