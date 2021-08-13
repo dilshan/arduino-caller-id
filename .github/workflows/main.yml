@@ -28,7 +28,7 @@ jobs:
       # Use the arduino/setup-arduino-cli action to install and
       # configure the Arduino CLI on the system.
       - name: Setup Arduino CLI
-        uses: arduino/setup-arduino-cli@v1.0.0
+        uses: arduino/setup-arduino-cli@v1
 
       # Install the platform.
       - name: Install platform
