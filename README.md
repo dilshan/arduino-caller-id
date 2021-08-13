@@ -5,7 +5,7 @@
 
 This project is a simple Caller ID (CLI) decoder made using the [Arduino UNO](https://www.arduino.cc/en/Main/ArduinoBoardUno) and a custom-made [HT9032D](https://www.holtek.com/documents/10179/116711/HT9032C_Dv170.pdf) module.
 
-[![Arduino CLI Display Unit](https://img.youtube.com/vi/x8n6yKQ5ZnQ/0.jpg)](https://www.youtube.com/watch?v=x8n6yKQ5ZnQ)
+[![Arduino CLI Display Unit](https://raw.githubusercontent.com/dilshan/arduino-caller-id/main/resources/arduino-ht9032d-cli-youtube.jpg)](https://www.youtube.com/watch?v=x8n6yKQ5ZnQ)
 
 ## HT9032D module
 
